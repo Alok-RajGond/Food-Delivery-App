@@ -1,0 +1,47 @@
+<resources>
+    <string name="app_name">Food Mania</string>
+    <string name="quote">Deliver your Happiness</string>
+    <string name="designer">Designed By\nDSE-DS</string>
+    <string name="startPageQuote">Just One Life Why Bother\nDieting</string>
+    <string name="next">Next</string>
+    <string name="loginSalogan">Just Let\'s go for the chow</string>
+    <string name="LoginMessage">LogIn to Your Account</string>
+    <string name="hintForEmail">abc@email.com</string>
+    <string name="hintPassword">Password</string>
+    <string name="continue_with">Continue With</string>
+    <string name="or">Or</string>
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="loginBtn">Login</string>
+    <string name="dont_have_account">Don\'t Have Account?</string>
+    <string name="signup_here">SignUp Here</string>
+    <string name="sign_upBtn">Sign Up</string>
+    <string name="already_have_an_acount">Already Have An Acount?</string>
+    <string name="signUpNameHint">Ajay</string>
+    <string name="signup_with">SignUp With</string>
+    <string name="enter_your_location">Enter Your Location</string>
+    <string name="choose_location">Choose Location</string>
+    <string name="choose_your_location">Choose Your Location</string>
+    <string name="locDescrip">To Provide you with the best dining experience, We nees your permission to access your device location. BY doing so we can suggest you best restraunt as per your requirement and desire to eat.</string>
+    <string name="explore_your_delicious_food">Explore Your Delicious Food</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="popular_serving">Popular Serving</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="food_name">Food Name</string>
+    <string name="paisa">₹Paisa</string>
+    <string name="cart">cart</string>
+    <string name="thi_is_delete_button">Thi is delete Button</string>
+    <string name="this_is_delete_button">This is delete Button</string>
+    <string name="this_button_is_use_to_reduce_the_quantitiy">this button is use to reduce the quantitiy</string>
+    <string name="use_to_add_item">Use to add Item</string>
+    <string name="menu">Menu</string>
+    <string name="recent_buy">Recent Buy</string>
+    <string name="notifiations">Notifiations</string>
+    <string name="go_home">Go Home</string>
+    <string name="short_description">Short Description</string>
+    <string name="ingredient">Ingredient</string>
+
+
+    <string name="default_web_client_id">AIzaSyD2181q3ciL1OqjxxylrDzzOenwF7pFnKs</string>
+</resources>

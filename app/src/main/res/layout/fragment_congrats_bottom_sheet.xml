@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="750dp"
+    tools:context=".CongratsBottomSheetFragment"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Congratulations!!\nYour order is placed"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="32dp"
+        android:textSize="32sp"
+        android:fontFamily="@font/yeonsung_regular"
+        android:textColor="@color/appColor"/>
+    
+    <ImageView
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:src="@drawable/icecream"
+        android:layout_gravity="center"
+        android:layout_marginTop="32dp"/>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/goHomeBtn"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_gravity="bottom"
+            android:layout_marginStart="32dp"
+            android:layout_marginEnd="32dp"
+            android:layout_marginBottom="32dp"
+            android:background="@drawable/green_button_gradient"
+            android:elevation="5dp"
+            android:text="@string/go_home"
+            android:textSize="20sp"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="32dp"/>
+
+    </LinearLayout>
+
+
+</FrameLayout>
