@@ -80,6 +80,14 @@ class ProfileFragment : Fragment() {
             )
 
             userReference.setValue(userData).addOnSuccessListener {
+                binding.apply {
+                    profileEditTextName.isEnabled = false
+                    profileEditTextAddress.isEnabled = false
+                    profileEditTextEmail.isEnabled = false
+                    profileEditTextPhone.isEnabled = false
+                }
+
+
                 Toast.makeText(requireContext(), "Profile is Updated", Toast.LENGTH_SHORT).show()
             }.addOnFailureListener {
                 Toast.makeText(
