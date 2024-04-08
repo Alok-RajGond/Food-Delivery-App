@@ -134,7 +134,6 @@ class CartAdapter(
                     cartItemPrice.removeAt(position)
                     cartDescription.removeAt(position)
                     cartQuantity.removeAt(position)
-                    cartIngredient.removeAt(position)
                     Toast.makeText(context, "Item removed from the cart", Toast.LENGTH_SHORT).show()
 
                     // Update itemQuantities array
