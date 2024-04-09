@@ -23,7 +23,7 @@ class RecentOrderItemsActivity : AppCompatActivity() {
         setContentView(binding.root)
 
         val recentOrderItems = intent.getSerializableExtra("RecentBuyOrderItem") as ArrayList<OrderDetails>
-        recentOrderItems?.let { orderDetails ->
+        recentOrderItems.let { orderDetails ->
             if (orderDetails.isNotEmpty()) {
                 val recentOrderItem = orderDetails[0]
 

@@ -37,48 +37,26 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
-                android:layout_marginTop="16dp"
+                android:layout_marginTop="8dp"
                 android:fontFamily="@font/glimmerg_glide_reg"
                 android:text="@string/food_name"
                 android:textSize="20sp"
-                app:layout_constraintBottom_toBottomOf="@+id/foodImagePopular"
                 app:layout_constraintStart_toEndOf="@+id/foodImagePopular"
-                app:layout_constraintTop_toTopOf="@+id/foodImagePopular"
-                app:layout_constraintVertical_bias="0.241" />
+                app:layout_constraintTop_toTopOf="@+id/foodImagePopular" />
 
             <TextView
                 android:id="@+id/itemPricePopular"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_marginEnd="51dp"
                 android:fontFamily="@font/yeonsung_regular"
                 android:text="@string/paisa"
                 android:textColor="@color/appColor"
                 android:textSize="20sp"
+                android:layout_marginBottom="20dp"
                 android:textStyle="bold"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.992"
-                app:layout_constraintTop_toTopOf="parent" />
-
-            <TextView
-                android:id="@+id/menuAddToCart"
-                android:layout_width="110dp"
-                android:layout_height="35dp"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="16dp"
-                android:layout_marginBottom="16dp"
-                android:background="@drawable/add_to_cart_button"
-                android:fontFamily="@font/lato_bold"
-                android:gravity="center"
-                android:text="@string/add_to_cart"
-                android:textColor="@color/white"
                 app:layout_constraintBottom_toBottomOf="parent"
-                app:layout_constraintEnd_toEndOf="@id/itemPricePopular"
-                app:layout_constraintHorizontal_bias="0.383"
-                app:layout_constraintStart_toStartOf="@+id/itemPricePopular"
-                app:layout_constraintTop_toBottomOf="@+id/itemPricePopular"
-                app:layout_constraintVertical_bias="0.714" />
+                app:layout_constraintEnd_toEndOf="parent" />
 
 
         </androidx.constraintlayout.widget.ConstraintLayout>

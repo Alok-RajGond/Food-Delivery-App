@@ -64,6 +64,7 @@ class HistoryFragment : Fragment() {
         val itemPushKey = listOfOrderItem[0].itemPushKey
         val  completeOrderReference = database.reference.child("CompletedOrder").child(itemPushKey!!)
         completeOrderReference.child("paymentRecieved").setValue(true)
+        binding.recievedButton.visibility = View.INVISIBLE
     }
 
     private fun seeItemRecentBuy() {
