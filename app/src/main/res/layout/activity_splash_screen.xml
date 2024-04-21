@@ -9,50 +9,25 @@
     <ImageView
         android:id="@+id/imageLogo"
         android:layout_width="257dp"
-        android:layout_height="257dp"
-        android:layout_marginTop="100dp"
-        android:src="@drawable/food_mania_logo"
+        android:layout_height="150dp"
+        android:layout_marginTop="200dp"
+        android:src="@drawable/logofoodmania"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
-
-    <TextView
-        android:id="@+id/appName"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/yeonsung_regular"
-        android:text="@string/app_name"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageLogo"
-        app:layout_constraintStart_toStartOf="@+id/imageLogo"
-        app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
 
     <TextView
 
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        android:fontFamily="@font/lato_extra_bold"
+        android:fontFamily="@font/glimmerg_glide_reg"
         android:text="@string/quote"
-        app:layout_constraintEnd_toEndOf="@+id/appName"
-        android:textSize="14sp"
+        android:textSize="25sp"
+        android:textColor="@color/appColor"
+        app:layout_constraintEnd_toEndOf="@+id/imageLogo"
         app:layout_constraintHorizontal_bias="0.492"
-        app:layout_constraintStart_toStartOf="@+id/appName"
-        app:layout_constraintTop_toBottomOf="@+id/appName" />
-
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/designer"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        android:layout_marginBottom="32dp"
-        android:fontFamily="@font/lato_bold"
-        android:textAlignment="center"
-        android:textSize="16sp"
-        android:textColor="@color/appColor"/>
+        app:layout_constraintStart_toStartOf="@+id/imageLogo"
+        app:layout_constraintTop_toBottomOf="@+id/imageLogo" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

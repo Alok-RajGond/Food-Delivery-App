@@ -19,10 +19,7 @@ class MainActivity : AppCompatActivity() {
         var bottomNav = findViewById<BottomNavigationView>(R.id.bottomNavigationView)
         bottomNav.setupWithNavController(NavController)
 
-        binding.notificationButton.setOnClickListener{
-            val bottomSheetDialog = Notification_Bottom_Fragment()
-            bottomSheetDialog.show(supportFragmentManager, "Test")
-        }
+
 
 
     }

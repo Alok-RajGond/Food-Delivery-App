@@ -18,8 +18,8 @@
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:background="#00f4f4f4"
-            android:scaleType="centerCrop"
-            android:src="@drawable/left_arror"
+            android:scaleType="fitCenter"
+            android:src="@drawable/leftarrow"
             tools:ignore="SpeakableTextPresentCheck,TouchTargetSizeCheck" />
 
         <LinearLayout

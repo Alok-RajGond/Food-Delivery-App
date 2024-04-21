@@ -61,8 +61,8 @@ class MenuAdapter(
         fun bind(position: Int) {
             val menuItem = menuItems[position]
             binding.apply {
-                menuFoodName.text = menuItem.foodName // Set food name
-                menuPrice.text = menuItem.foodPrice // Set food price
+                menuFoodName.text =menuItem.foodName // Set food name
+                menuPrice.text =  "₹ " +  menuItem.foodPrice // Set food price
                 // Load and display food image using Glide library
                 Glide.with(requireContext).load(Uri.parse(menuItem.foodImage)).into(menuImg)
             }

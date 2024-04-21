@@ -30,16 +30,6 @@
         android:layout_marginTop="16dp"
         android:layout_marginStart="16dp"/>
 
-    <ImageView
-        android:id="@+id/notificationButton"
-        android:layout_width="32dp"
-        android:layout_height="32dp"
-        android:src="@drawable/bell"
-        app:layout_constraintBottom_toBottomOf="@+id/ExploreFavFood"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/ExploreFavFood"
-        android:layout_marginEnd="16dp"/>
-
     <fragment
         android:id="@+id/fragmentContainerView"
         android:name="androidx.navigation.fragment.NavHostFragment"

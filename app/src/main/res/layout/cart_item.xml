@@ -110,11 +110,14 @@
 
             <ImageButton
                 android:id="@+id/delItemBtn"
-                android:layout_width="45dp"
-                android:layout_height="45dp"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
                 android:background="#00FFFFFF"
                 android:contentDescription="@string/this_is_delete_button"
                 android:src="@drawable/delete"
+                android:layout_marginTop="5dp"
+                android:scaleType="fitCenter"
+                android:layout_marginEnd="5dp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
                 tools:ignore="TouchTargetSizeCheck" />
